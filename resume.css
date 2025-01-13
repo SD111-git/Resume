@@ -1,0 +1,144 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Resume Container */
+.resume-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.resume-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.resume-header p {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+.resume-header i {
+    margin-right: 10px;
+}
+
+/* Sections */
+.resume-section {
+    margin-bottom: 30px;
+}
+
+.resume-section h2 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.resume-section .icon {
+    position: absolute;
+    left: -35px;
+    top: 0;
+    font-size: 1.8rem;
+    color: #5bc0de;
+}
+
+.resume-section ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.resume-section ul li {
+    margin-bottom: 10px;
+}
+
+.resume-section ul li strong {
+    color: #333;
+}
+
+.university-name {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Technical Skills Section */
+.skills {
+    list-style-type: disc; /* Use bullet points */
+    margin-left: 20px; /* Indent list items */
+    padding-left: 20px; /* Add space from the container */
+}
+
+.skills li {
+    margin-bottom: 8px; /* Add spacing between list items */
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer Section */
+.resume-footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Responsiveness for Smaller Screens */
+@media (max-width: 768px) {
+    .resume-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .resume-header h1 {
+        font-size: 2rem;
+    }
+
+    .resume-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .resume-header p {
+        font-size: 0.9rem;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills li {
+        font-size: 0.9rem;
+    }
+}
